@@ -1,0 +1,37 @@
+﻿/***************************************************************************************************************************
+Title: JQuery Dual List Box Plugin CSS 
+Author(s): Joshua Simacek
+Create Date: 7/28/2016
+Description: CSS File for JQuery Dual List Box Plugin
+Dependencies: JQuery.js, jquery.dualListBox.css
+Version: 1.0.0
+ChangeLog:
+v1.0.0 - 7/28/2016 - (JS):
+    • Initial Implementation Complete
+v0.0.1 - 7/26/2016 - (JS):
+    • Begin Implementation
+***************************************************************************************************************************/
+
+
+.dualListBoxButtons {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    height: 152px;
+}
+
+.dualListBoxButtons button {
+    margin-bottom: 5px;
+    font-size: 14px;
+    width: 36px;
+    font-weight: bold;
+}
+
+.dualListBox, .dualListBoxButtonContainer {
+    height: 400px !important;
+}
